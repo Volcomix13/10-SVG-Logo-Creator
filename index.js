@@ -1,7 +1,7 @@
 //Required packages for application
 const inquirer = require("inquirer");
 const fs = require("fs");
-const generateLogo = require("./lib/shapes");
+const shapes = require("./lib/shapes");
 
 //Questions for user input
 const questions = [
@@ -34,7 +34,7 @@ function init(){
         .prompt(questions)
         .then((response)=>{
             console.log("got it!")
-            fs.writeFile("./logo.svg", generateLogo({...response}), (err)=>
+            fs.writeFile("./logo.svg", shapes({...response}), (err)=>
             err ? console.log(err) : console.log("Generating Logo!"))
         })
         .catch((error)=>{
