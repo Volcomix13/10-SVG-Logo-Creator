@@ -7,7 +7,6 @@ During this project I learned that we can create shapes with our code and use th
 ## Table of Contents
 *[Installation](#installation)
 *[Usage](#Usage)
-*[Credits](#Credits)
 *[License](#License)
 
 ## Installation
@@ -23,9 +22,17 @@ To run this application please follow the steps below:
 ## Usage
 Once all the required packages have been installed, use command node index.js to start the application.
 Answer the prompts, once all prompts have been answered you will get a message that your logo is being generated.
-You can right click on the logo.svg file and open in browser. Your logo will show there!
+You can right click on the logo.svg file and open in browser. 
 
-## Credits
+Links:
+Video:https://drive.google.com/file/d/1IRZTyeCtUkdq_A0THiAfuzmrQbRSpum_/view
+GitHub:https://github.com/Volcomix13/10-SVG-Logo-Creator
+
+![Terminal](./lib/Assets/Terminal.png)
+![Rectangle](./lib/Assets/Rectangle.png)
+![Circle](./lib/Assets/Circle.png)
+![Triangle](./lib/Assets/Triangle.png)
+
 
 ## License
 
